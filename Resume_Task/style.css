@@ -1,0 +1,106 @@
+table, th, td{
+    /*    border: 1px solid black; */
+        border-collapse: collapse;
+    }
+    body{
+        background-color: lightcyan;
+    }
+    .border{
+                background-color: rgb(100, 93, 93);
+                width: 100%;
+                height: 300px;
+                position: sticky;
+                
+            }
+    .bar{   
+            background-color: rgb(228, 226, 226);
+            width: 100%;
+            height: 40px;
+            position: absolute;
+            top: 220px;
+    }
+    .name{
+
+            background-color: rgb(233, 196, 31);
+            font-size: 2rem;
+            font-weight: 200;
+            position: absolute;
+            top: 180px;
+            left: 37%;
+            text-align: center;
+            padding: 10px;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+    .img{
+            height: 160px;
+            border-radius:60%;
+            top: 50px;
+            left: 40%;
+            border: rgb(233, 196, 31) 5px dotted;
+            position: absolute;
+        }
+    .det{
+            text-align: center;
+            color: black;
+        }
+    .space{
+            text-align: left;
+            font-size: 2rem;
+            font-weight: 160;
+            color: grey;
+            width: 400px;
+            table-layout: fixed;
+
+    }
+    .space1{
+            text-align: left;
+            font-size: 2rem;
+            font-weight: 160;
+            color: grey;
+    }
+    #abc{
+        border-radius:60%;
+        border: rgb(233, 196, 31) 5px dotted;
+
+    }
+    #abc1{
+        border-radius:35%;
+        border: rgb(233, 196, 31) 5px dotted;
+
+    }
+    .divider{
+        height: 1000px;
+        width: 2px;
+        background-color: rgb(95, 93, 93);
+        position: absolute;
+        left: 55%
+    }
+    .slidecontainer {
+         width: 100%;
+         background-color: red;
+    }
+
+    .slider::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 25px;
+            height: 25px;
+            background: red;
+            cursor: pointer;
+    }
+    
+    
+    .slider {
+            -webkit-appearance: none;
+            width: 100%;
+            height: 5px;
+            background-image: linear-gradient(to right,orange, white);
+            outline: orchid;
+            opacity: 0.7;
+            -webkit-transition: .2s;
+            transition: opacity .2s;
+    }
+   .width{
+       width: 100%;
+   }
